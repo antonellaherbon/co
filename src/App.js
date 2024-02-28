@@ -4,14 +4,28 @@ import Card from "./components/card";
 import cafeImagen from "./imgs/cafe.jpg"
 import CardComponent from './components/cardContainer';
 import data from "./productos.json"
+import { useState } from 'react';
 
 function App() {
+  const [productos, setProductos] = useState(data)
+
+  function filtrarHayStock(filtrar){
+    if (filtrar){
+    const productosEnStock = data.filter(producto => producto.stock > 0);
+    setProductos(productosEnStock);
+    }else{
+      setProductos(data)
+    }
+  }
+
+  
+
   return (
     <div className="App">
       <header className='header'><img className='imagen' src={cafeImagen} alt="Cafe Header"/> </header>
       <div className='contenedorPrincipal'>
-        <CardComponent>
-          {data.map(product =>
+        <CardComponent filtrarHayStock={filtrarHayStock}>
+          {productos.map(product =>
               <Card 
               key = {product.name}
               name={product.name}

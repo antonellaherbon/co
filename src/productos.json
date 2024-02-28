@@ -3,27 +3,27 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Cappuccino_at_Sightglass_Coffee.jpg",
         "name": "Cappuccino",
         "price": 5.20,
-        "rating": 4.7,
+        "rating": 4,
         "cantidad": 65,
-        "stock": "si"
+        "stock": 3
     },
 
     {
         "image": "https://static.wixstatic.com/media/37c204_41c6dd755dfb49ad8d8c8eca370c07ff~mv2.jpg/v1/fill/w_624,h_620,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BWZ-7000.jpg",
         "name": "House Coffee",
         "price": 3.50,
-        "rating": 4.85,
+        "rating": 4,
         "cantidad": 14,
-        "stock": "si"
+        "stock": 2
     },
 
     {
         "image":"https://i.pinimg.com/736x/08/f0/05/08f005a0bc53ff10c0dec1cf68421aee.jpg",
         "name": "Espresso",
         "price": 2.50,
-        "rating": 4.9,
+        "rating": 3,
         "cantidad": 55,
-        "stock": "si"
+        "stock": 2
     },
 
     {
@@ -32,7 +32,7 @@
         "price": 4.50,
         "rating": 5.0,
         "cantidad": 23,
-        "stock": "si"
+        "stock": 3
     },
 
     {
@@ -41,7 +41,7 @@
         "price": 4.00,
         "rating": 4.65,
         "cantidad": 122,
-        "stock": "no"
+        "stock": 0
     },
 
     {
@@ -50,6 +50,6 @@
         "price": 5.50,
         "rating": "",
         "cantidad": 0,
-        "stock": "si"
+        "stock": 4
     }
 ]

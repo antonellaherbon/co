@@ -14,7 +14,7 @@ function Card (props){
                 <div class="card-footer">
                     <div class="card-meta card-meta--views">
                         {/* <h2>{props.rating}</h2> */}
-                        <Rating/> 
+                        <Rating stars={props.rating}/> 
                     </div>
                     <p>({props.cantidadVotos} Votos)</p>
                 </div>

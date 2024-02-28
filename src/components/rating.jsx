@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import React from 'react';
 
 function RatingStars(props){
-    const [value, setValue] = React.useState(2);
+    const [value, setValue] = React.useState(props.stars);
     return(
         <div>
             <Box
